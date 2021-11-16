@@ -15,7 +15,7 @@ services:
       context: ../dashboard
       dockerfile: Dockerfile
     ports:
-      - "8080:8080"
+      - "8080:80"
     networks:
       - vuejs_network
 
